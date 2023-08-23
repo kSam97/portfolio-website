@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samrat Kundu Portfolio</title>
+
+    <!--Custom CSS Link-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!--Box icons Link-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Awesome Font icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Google Font Icons Link-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <!--Google Font Link-->
+    <!--Source code pro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,300&family=Source+Code+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,300&family=Source+Code+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        Samrat Kundu | <span class="highlight-tomato-type">Portfolio</span>
+      </div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <div class="right">
+        <ul class="navlist">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutMe">About</a></li>
+          <li><a href="#portfolio-projects">Projects</a></li>
+          <li><a href="#contactMe">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!--============= First Section: Home ===============-->
+      <section class="home" id="home">
+        <div class="home-text">
+          Hi, My name is
+          <h3 class="highlight-aqua">Samrat Kundu</h3>
+          <!-- Element to contain animated typing -->
+          <span id="element"></span>
+          <!--<p>and I am a passionate</p>
+          <p class="highlight-aqua">Data Analyst</p>
+          <br />-->
+
+          <!-- <p>Welcome to my page!</p> -->
+        </div>
+        <div class="home-image">
+          <img src="/images/website-about-image.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <!-- <div class="common-heading">About Me</div> -->
+      <!--============= Second Section: About ===============-->
+      <section class="about" id="aboutMe">
+        <div class="about-image">
+          <!-- image -->
+          <img src="/images/programmer.png" alt="" />
+        </div>
+        <div class="about-text">
+          <p>
+            As a data enthusiast with a passion for uncovering insights and
+            driving business growth, I am excited to apply my skills and
+            knowledge to the role of a data analyst.
+          </p>
+          <br />
+          <p>
+            With a strong foundation in statistics, programming, and data
+            visualization, I am adept at analyzing complex data sets and
+            communicating my findings in a clear and compelling manner.
+          </p>
+          <br />
+          <p>
+            My ability to think critically and creatively, combined with my
+            attention to detail and results-oriented approach, make me an asset
+            to any data-driven team.
+          </p>
+          <!--Download Button-->
+          <!-- <div class="donwload-resume"><button class="btn"><i class="fa fa-download"></i> My Resume</button></div> -->
+          <div class="donwload-resume">
+            <form
+              method="get"
+              action="/images/Samrat_Kundu_resume.pdf"
+            >
+              <button type="submit">
+                <i class="fa fa-download"></i> My Resume
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--============= Third Section: Projects ===============-->
+      <!-- <div class="heading">Projects</div> -->
+      <section class="portfolio" id="portfolio-projects">
+        <!--Add Heading and Paragraphs-->
+        <h2>My Portfolio <span class="highlight-aqua">Projects</span></h2>
+        <br />
+        <!-- <p>
+          Here are the projects that I've worked independently so far...
+        </p> -->
+        <!--Container for Projects-->
+        <div class="container">
+          <div class="box-container">
+            <!--Flex box: 1 -->
+            <div class="flex-box">
+              <img src="/images/Imdb-Web-scraping.png" alt="" />
+              <h3 class="project-title">Project 1</h3>
+              <p class="project-desc-short">
+                Used Python libraries like Beautiful Soup, Requests, Pandas,
+                Numpy etc..
+              </p>
+              <a
+                href="https://github.com/kSam97/IMDB-Web_Scraping-EDA-Visualization-Python"
+                class="view-project-btn"
+                >View Project</a
+              >
+            </div>
+            <!--Flex box: 2 -->
+            <div class="flex-box">
+              <img src="/images/glassdoorEDA.png" alt="" />
+              <h3 class="project-title">Project 2</h3>
+              <p class="project-desc-short">
+                Used Python for Data cleaning, Formatting, Visualization,
+                Text-Analytics etc..
+              </p>
+              <a
+                href="https://github.com/kSam97/glassdoor_datascience_jobs-Cleaning-EDA-Visualization-Python"
+                class="view-project-btn"
+                >View Project</a
+              >
+            </div>
+            <!--Flex box: 3 -->
+            <div class="flex-box">
+              <img src="/images/retailsalesanalysis.png" alt="" />
+              <h3 class="project-title">Project 3</h3>
+              <p class="project-desc-short">
+                Used SQL and Power BI to solve business queries & make
+                ineractive Dashboard etc..
+              </p>
+              <a
+                href="https://github.com/kSam97/MySQL-Power_BI_project-Retail_Sales_Analysis"
+                class="view-project-btn"
+                >View Project</a
+              >
+            </div>
+            <!--Flex box: 4 -->
+            <div class="flex-box">
+              <img src="/images/Chicago-Crime-Data-Analysis.png" alt="" />
+              <h3 class="project-title">Project 4</h3>
+              <p class="project-desc-short">
+                Used both Python and SQL to analyse the real world Data of Chicago..
+              </p>
+              <a href="https://www.kaggle.com/code/samratk97/chicago-crime-data-analysis-with-python-sql" class="view-project-btn">View Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--============= Fourth Section: Contact ===============-->
+      <!-- <div class="common-heading">Contact Me</div> -->
+      <!-- <hr /> -->
+      <section class="contact" id="contactMe">
+        <h2>Contact <span class="highlight-aqua">Me</span></h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h4>Up for <span class="highlight-pb">Collaboration?</span></h4>
+            <p>
+              I belive working with you, will help me gain my knowledge. If
+              you're interested in my profile, feel free contact for your
+              projects. <br />Let's build it together!
+            </p>
+            <div class="contact-list">
+              <li><span class="material-symbols-outlined">
+                location_on
+                </span>Barasat, West Bengal, India</li>
+              <li><span class="material-symbols-outlined">
+                mail
+                </span>samratkundu148@gmail.com</li>
+              <li><span class="material-symbols-outlined">
+                call
+                </span></i>9062678123</li>
+            </div>
+            <div class="contact-links">
+              <li><a href="https://www.linkedin.com/in/samratkundu97/"><img src="/images/LI-Logo.png"></a></li>
+              <li><a href="https://github.com/kSam97"><img src="/images/github-custom-logo.png"></a></li>
+              <li><a href="https://www.kaggle.com/samratk97">
+                <img src="/images/kaggle-logo.png"></a></li>
+                <!-- <li><a href="/">
+                  <img src="/images/Medium-Logo.png"></a></li> -->
+          </div>
+          </div>
+            <!--Contact Form-->
+            <!-- <div class="contact-form">
+              <form onsubmit="sendEmail(); reset(); return false;">
+                <input type="" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="" placeholder="Enter the Subject">
+                <textarea name="" id="" cols="40" rows="7" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="submit" class="send">
+              </form>
+            </div> -->
+            <div class="contact-image">
+              <img src="/images/coding.png" alt="">
+            </div>
+        </div>
+      </section>
+      <!-- Sample Section
+      <section class="sample-section">
+        <h2>Section Heading</h2>
+        <div class="container">
+          <div class="left-sample">Left SAmple</div>
+          <div class="right-sample">Right Sample</div>
+        </div>
+      </section>
+    </main> -->
+    
+    <!--JS elements-->
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "and I'm<br>a <span class='highlight-pb'>passionate</span><span class='highlight-tomato-type'><br>Data Analyst</span>",
+        ],
+        typeSpeed: 65,
+      });
+    </script>
+    <!--Custom js file link-->
+    <script src="script.js"></script>
+  </body>
+  <footer class="footer">
+    <a href="#"
+      ><span class="material-symbols-outlined"> arrow_circle_up </span>
+    </a>
+  </footer>
+</html>
